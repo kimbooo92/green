@@ -2861,7 +2861,54 @@ textarea.form-control-lg {
 }
 
 .header-colour {
-  color: rgba(21, 59, 6, 0.438)
+  color: #000 !important;
+}
+
+.proof-card {
+  cursor: pointer;
+  position: relative;
+}
+
+.proof-card img {
+  transition: transform 0.3s ease;
+}
+
+.proof-card:hover img {
+  transform: scale(1.05);
+}
+
+.overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  background: rgba(0, 0, 0, 0.6);
+
+  opacity: 0;
+  transition: opacity 0.3s ease;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+.proof-card:hover .overlay {
+  opacity: 1;
+}
+
+.overlay p {
+  color: white;
+  font-size: 1.1rem;
+  font-weight: 600;
+  padding: 1rem;
+  transform: translateY(10px);
+  transition: transform 0.3s ease;
+}
+
+.proof-card:hover .overlay p {
+  transform: translateY(0);
 }
 
 .paragraph-colour {
