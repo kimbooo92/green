@@ -2020,7 +2020,7 @@ progress {
 }
 .form-control:focus {
   color: #212529;
-  background-color: #fff;
+  background-color:  #b5cf8a;
   border-color: #86b7fe;
   outline: 0;
   box-shadow: 0 0 0 0.25rem rgba(13, 110, 253, 0.25);
@@ -2037,7 +2037,7 @@ progress {
   opacity: 1;
 }
 .form-control:disabled {
-  background-color: #e9ecef;
+  background-color:  #b5cf8a;
   opacity: 1;
 }
 .form-control::file-selector-button {
@@ -2046,7 +2046,7 @@ progress {
   -webkit-margin-end: 1rem;
           margin-inline-end: 1rem;
   color: #212529;
-  background-color: #e9ecef;
+  background-color:  #b5cf8a;
   pointer-events: none;
   border-color: inherit;
   border-style: solid;
@@ -2061,7 +2061,7 @@ progress {
   }
 }
 .form-control:hover:not(:disabled):not([readonly])::file-selector-button {
-  background-color: #dde0e3;
+  background-color:  #b5cf8a;
 }
 
 .form-control-plaintext {
@@ -2177,7 +2177,7 @@ textarea.form-control-lg {
   background-image: none;
 }
 .form-select:disabled {
-  background-color: #e9ecef;
+  background-color:  #b5cf8a;
 }
 .form-select:-moz-focusring {
   color: transparent;
