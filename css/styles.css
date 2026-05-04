@@ -10897,7 +10897,7 @@ header.masthead {
   position: relative;
   background-color: #343a40;
   background: url("../assets/img/image.png") no-repeat center center;
-  background-size: cover;
+  background-size: 150%;
   padding-top: 8rem;
   padding-bottom: 8rem;
 }
