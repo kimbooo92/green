@@ -10898,8 +10898,8 @@ header.masthead {
   background-color: #343a40;
   background: url("../assets/img/image.png") no-repeat center center;
   background-size: cover;
-  padding: 8rem 0;
-  min-height: 100vh;
+  padding-top: 12rem;
+  padding-bottom: 12rem;
 }
 header.masthead:before {
   content: "";
