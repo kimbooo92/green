@@ -13,18 +13,12 @@ window.APP_CONSTANTS = {
   introParagraph: "Le pétrole est une ressource non renouvelable très importante au Canada. Il est utilisé pour produire de l’énergie, faire fonctionner les voitures et soutenir plusieurs industries. Cependant, le pétrole ne peut pas être remplacé rapidement, car il prend des millions d’années à se former. Aujourd’hui, son utilisation soulève plusieurs questions importantes sur ses effets sur l’environnement, son rôle dans l’économie et notre avenir.",
   impactsTitle: "Impacts",
   positiveImpactsTitle: "Impacts positifs",
-  positiveImpactsParagraph: "Les ressources comme le pétrole ont des avantages importants. Elles créent beaucoup d’emplois au Canada, surtout dans l’industrie pétrolière. Elles contribuent aussi à l’économie, car le pays peut exporter le pétrole et gagner de l’argent.",
-
-  "En plus, le pétrole est une source d’énergie très efficace et facile à utiliser. Il permet de faire fonctionner les voitures, de chauffer les maisons et d’alimenter plusieurs industries. C’est pour cette raison qu’il est encore très utilisé aujourd’hui dans la vie quotidienne.",
+  positiveImpactsParagraph: "Les ressources comme le pétrole ont des avantages importants. Elles créent beaucoup d’emplois au Canada, surtout dans l’industrie pétrolière. Elles contribuent aussi à l’économie, car le pays peut exporter le pétrole et gagner de l’argent. En plus, le pétrole est une source d’énergie très efficace et facile à utiliser. Il permet de faire fonctionner les voitures, de chauffer les maisons et d’alimenter plusieurs industries. C’est pour cette raison qu’il est encore très utilisé aujourd’hui dans la vie quotidienne.",
 
   negativeImpactsTitle: "Impacts négatifs",
-  negativeImpactsParagraph: " Par contre, le pétrole cause plusieurs problèmes. Son utilisation pollue l’air et peut aussi contaminer l’eau, ce qui est dangereux pour la santé et l’environnement. Quand on le brûle, il libère du CO₂, un gaz à effet de serre qui contribue aux changements climatiques.",
-
-  "L’extraction du pétrole peut aussi endommager les milieux naturels et nuire aux animaux. En plus, le pétrole est une ressource limitée. Comme il prend des millions d’années à se former, il finira par s’épuiser si on continue à l’utiliser autant.",
+  negativeImpactsParagraph: " Par contre, le pétrole cause plusieurs problèmes. Son utilisation pollue l’air et peut aussi contaminer l’eau, ce qui est dangereux pour la santé et l’environnement. Quand on le brûle, il libère du CO₂, un gaz à effet de serre qui contribue aux changements climatiques. L’extraction du pétrole peut aussi endommager les milieux naturels et nuire aux animaux. En plus, le pétrole est une ressource limitée. Comme il prend des millions d’années à se former, il finira par s’épuiser si on continue à l’utiliser autant.",
   conclusionsTitle: "Conclusion de la page",
-  conclusionsParagraph: "En conclusion, le pétrole est très utile, car il aide l’économie et nous fournit de l’énergie au quotidien. Par contre, ses impacts sur l’environnement, comme la pollution et les changements climatiques, sont importants.",
-
-  "C’est pourquoi il est nécessaire de l’utiliser avec plus de prudence et de commencer à chercher des solutions plus durables pour l’avenir.",
+  conclusionsParagraph: "En conclusion, le pétrole est très utile, car il aide l’économie et nous fournit de l’énergie au quotidien. Par contre, ses impacts sur l’environnement, comme la pollution et les changements climatiques, sont importants.C’est pourquoi il est nécessaire de l’utiliser avec plus de prudence et de commencer à chercher des solutions plus durables pour l’avenir.",
   opinionsTitle: "Notre Opinion",
   argumentsTitle: "Les Arguments",
   argumentsParagraph: "Nous pensons qu’il est important de réduire notre consommation de pétrole, car son utilisation cause beaucoup de problèmes pour l’environnement et pour l’avenir. Même s’il est très utile aujourd’hui, le pétrole n’est pas une solution durable à long terme. Si on continue à en dépendre autant, on risque de l’épuiser et d’aggraver les changements climatiques. C’est pourquoi il est important de commencer à changer nos habitudes et de chercher des solutions plus respectueuses de la planète.",
