@@ -604,7 +604,7 @@ progress {
 
 .img-thumbnail {
   padding: 0.25rem;
-  background-color: #fff;
+  background-color: #b5cf8a;
   border: 1px solid var(--bs-border-color);
   border-radius: 0.375rem;
   max-width: 100%;
@@ -2020,7 +2020,7 @@ progress {
 }
 .form-control:focus {
   color: #212529;
-  background-color: #fff;
+  background-color:  #b5cf8a;
   border-color: #86b7fe;
   outline: 0;
   box-shadow: 0 0 0 0.25rem rgba(13, 110, 253, 0.25);
@@ -2037,7 +2037,7 @@ progress {
   opacity: 1;
 }
 .form-control:disabled {
-  background-color: #e9ecef;
+  background-color:  #b5cf8a;
   opacity: 1;
 }
 .form-control::file-selector-button {
@@ -2046,7 +2046,7 @@ progress {
   -webkit-margin-end: 1rem;
           margin-inline-end: 1rem;
   color: #212529;
-  background-color: #e9ecef;
+  background-color:  #b5cf8a;
   pointer-events: none;
   border-color: inherit;
   border-style: solid;
@@ -2061,7 +2061,7 @@ progress {
   }
 }
 .form-control:hover:not(:disabled):not([readonly])::file-selector-button {
-  background-color: #dde0e3;
+  background-color:  #b5cf8a;
 }
 
 .form-control-plaintext {
@@ -2150,12 +2150,12 @@ textarea.form-control-lg {
   font-weight: 400;
   line-height: 1.5;
   color: #212529;
-  background-color: #fff;
+  background-color: #b5cf8a;
   background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16'%3e%3cpath fill='none' stroke='%23343a40' stroke-linecap='round' stroke-linejoin='round' stroke-width='2' d='m2 5 6 6 6-6'/%3e%3c/svg%3e");
   background-repeat: no-repeat;
   background-position: right 1rem center;
   background-size: 16px 12px;
-  border: 1px solid #ced4da;
+  border: 1px solid #b5cf8a;
   border-radius: 0.375rem;
   transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
   -webkit-appearance: none;
@@ -2177,7 +2177,7 @@ textarea.form-control-lg {
   background-image: none;
 }
 .form-select:disabled {
-  background-color: #e9ecef;
+  background-color:  #b5cf8a;
 }
 .form-select:-moz-focusring {
   color: transparent;
@@ -2227,7 +2227,7 @@ textarea.form-control-lg {
   height: 1em;
   margin-top: 0.25em;
   vertical-align: top;
-  background-color: #fff;
+  background-color: #b5cf8a;
   background-repeat: no-repeat;
   background-position: center;
   background-size: contain;
@@ -2372,7 +2372,7 @@ textarea.form-control-lg {
   height: 0.5rem;
   color: transparent;
   cursor: pointer;
-  background-color: #dee2e6;
+  background-color:  #7e915f;
   border-color: transparent;
   border-radius: 1rem;
 }
@@ -2401,7 +2401,7 @@ textarea.form-control-lg {
   height: 0.5rem;
   color: transparent;
   cursor: pointer;
-  background-color: #dee2e6;
+  background-color: #7e915f;
   border-color: transparent;
   border-radius: 1rem;
 }
@@ -2916,20 +2916,20 @@ textarea.form-control-lg {
 }
 
 .btn-secondary {
-  --bs-btn-color: #fff;
-  --bs-btn-bg: #6c757d;
-  --bs-btn-border-color: #6c757d;
-  --bs-btn-hover-color: #fff;
-  --bs-btn-hover-bg: #5c636a;
-  --bs-btn-hover-border-color: #565e64;
+  --bs-btn-color: #b5cf8a;
+  --bs-btn-bg: #7e915f;
+  --bs-btn-border-color: #7e915f;
+  --bs-btn-hover-color:  #b5cf8a;
+  --bs-btn-hover-bg: #7e915f;
+  --bs-btn-hover-border-color: #47613f;
   --bs-btn-focus-shadow-rgb: 130, 138, 145;
-  --bs-btn-active-color: #fff;
-  --bs-btn-active-bg: #565e64;
-  --bs-btn-active-border-color: #51585e;
+  --bs-btn-active-color:  #b5cf8a;
+  --bs-btn-active-bg: #47613f;
+  --bs-btn-active-border-color: #47613f;
   --bs-btn-active-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.125);
-  --bs-btn-disabled-color: #fff;
-  --bs-btn-disabled-bg: #6c757d;
-  --bs-btn-disabled-border-color: #6c757d;
+  --bs-btn-disabled-color:  #b5cf8a;
+  --bs-btn-disabled-bg: #7e915f;
+  --bs-btn-disabled-border-color: #7e915f;
 }
 
 .btn-success {
@@ -10898,8 +10898,7 @@ header.masthead {
   background-color: #343a40;
   background: url("../assets/img/image.png") no-repeat center center;
   background-size: cover;
-  padding-top: 8rem;
-  padding-bottom: 8rem;
+  min-height: 120vh; /* taller than screen */
 }
 header.masthead:before {
   content: "";
